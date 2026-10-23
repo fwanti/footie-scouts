@@ -3,7 +3,6 @@ from footie_scouts.data_extraction.competitions import get_competitions
 def competitions_transformation():
     response = get_competitions()
     competitions = []
-    competitions = []
     for competition in response:
             item = (
                 competition['id'],                
