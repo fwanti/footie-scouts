@@ -8,6 +8,9 @@ version = "0.1.0"
 dependencies = [
     "requests",
     "python-dotenv",
+    "pandas",
+    "pyodbc",
+    "sqlalchemy"
 ]
 
 [tool.setuptools.packages.find]
