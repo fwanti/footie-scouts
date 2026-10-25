@@ -4,13 +4,14 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "footie-scouts"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
     "requests",
     "python-dotenv",
     "pandas",
     "pyodbc",
-    "sqlalchemy"
+    "sqlalchemy",
+    "psycopg2"
 ]
 
 [tool.setuptools.packages.find]
